@@ -1,0 +1,101 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Assuming navbar is ~80px */
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.glass-form {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #4a90e2;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  margin-top: 10px;
+}
+
+.primary-btn:hover {
+  background-color: #357abd;
+}
+
+.primary-btn:active {
+  transform: scale(0.98);
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-footer a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.dashboard-header p {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.module-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+.module-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px 20px;
+
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.module-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.module-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.module-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
